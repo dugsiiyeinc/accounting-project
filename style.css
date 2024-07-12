@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: black;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 2px 5px 6px 2px rgb(211, 21, 21);
+    border-radius: 10px;
+}
+.forms{
+    width: 400px;
+    height: 50px;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+     color:black ;
+     font-size: 2rem;
+}
+.placeholder{
+    font-size: 3rem;
+}
+@media (max-width:700px) {
+.form{
+    
+    width: 100%;
+}
+.forms{
+    width: 100%;
+}
+}
